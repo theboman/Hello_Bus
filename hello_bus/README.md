@@ -8,6 +8,11 @@ An ios and android mobile app built on react native, web based admin.
 
 ### User 
 
+![alt text][user]
+
+[user]: https://github.com/theboman/Hello_Bus/blob/master/hello_bus/images/Design_User.png "user design comp"
+
+
 - The app is to provide an estimate of the next bus to your location with a simple focused interface. This will also have access to the overall daily / weekly schedule.
 
 ---

@@ -1,16 +1,21 @@
-# Hello Bus - a bus app for small route private buses!
+# Hello Bus - It's a simple app that tells you, when the next bus is coming! Simple for admins to setup a schedule and brand as theirs. Targeted for small bus companies everywhere. :)
 
 ## Goals
-an ios and android mobile app built on react native
+an ios and android mobile app built on react native, web based admin. 
 
 #### User 
 - The app is to provide an estimate of the next bus to your location. 
 
 #### Admin
-- Admins can set routes for bus on a map google maps or open maps see image below
+- Admins can set routes for bus on a map.
+  -  google maps or open maps see image below (belive google maps charges nowadays)
 
-- set a scheldule of how often the busses run, what time start and what time end
+- set a scheldule of how often the busses run
+  - what time start and what time end each day
+  - if at different times of the day the busses have more frequency. For example between 0600-0900 they run every 10mins vs. every 15mins. 
 
+- simple login system
+- simple branding for a specific instance of the app. Would be nice if the user who wants to use our app could brand it as theirs. For example Sansiri is our bus it would be nice if they could download the app and click on an option for perhaps country / city / company. For us it would be thailand/bangkok/sansiri/thebase. Boom you have your specific bus route with all related info.
 ---
 
 <br>
@@ -25,14 +30,16 @@ an ios and android mobile app built on react native
 - should have a way to brand for private bus comapnies and routes and allow users to set what bus companies and route they want to see.
 
 ## future goals of user side
-- smart phone of driver gps intergration
+- Can make a simple driver side of the app to enter actual time arrived at a stop, this can be added to a db to keep track of delays on average over time to predict a more accurate time of arrival.
+  * this would need an admin screen on the admin side to add drivers (they would need a smart phone)
+- smart phone using driver's phone and gps intergration? becomes a grab / uber like app
 - advertising 
 
 
 ---
 ## Admin side 
-allow admins to edit the routes, add drivers(if we predict with gps)
-using either a web front end or mobile front end.
+- web based admin site
+- allow admins to edit the routes, add drivers(if we predict with simple actuall arrival date or more advancded with drivers smart phone gps)
 Can't push refs to remote. Try running 'Pull' first to integrate your changes.Can't push refs to remote. Try running 'Pull' first to integrate your changes.Can't push refs to remote. Try running 'Pull' first to integrate your changes.
 using google maps or open street maps 
 
